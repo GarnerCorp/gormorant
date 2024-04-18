@@ -26,6 +26,7 @@ jenkins
 labelledread
 labelledwrite
 mergify
+Metaspace
 microsite
 munit
 nel
