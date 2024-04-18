@@ -10,12 +10,10 @@ chuusai
 comple
 contramap
 davenverse
-Defn
 Delims
 dquote
 Folat
 garnercorp
-GCLOUD
 gcr
 google
 gormorant
@@ -25,9 +23,7 @@ hnil
 jenkins
 labelledread
 labelledwrite
-mergify
 Metaspace
-microsite
 munit
 nel
 readlabelled
