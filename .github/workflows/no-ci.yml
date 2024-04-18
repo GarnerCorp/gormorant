@@ -32,5 +32,5 @@ jobs:
     steps:
       - name: Stub gormorant Build
         run: |
-          echo "Files outside of the lighthouse-queues workflow have changed. This workflow has an equivalently named required check for those files,
+          echo "Files outside of the gormorant workflow have changed. This workflow has an equivalently named required check for those files,
           so this one exists to pass that check in the case that none of those files were changed."
