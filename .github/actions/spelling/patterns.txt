@@ -56,3 +56,9 @@ mailto:[-a-zA-Z=;:/?%&0-9+@.]{3,}
 
 # ignore long runs of a single character:
 \b([A-Za-z])\g{-1}{3,}\b
+
+# hit-count: 4 file-count: 1
+# Compiler flags (Unix, Java/Scala)
+# Use if you have things like `-Pdocker` and want to treat them as `docker`
+(?:^|[\t ,>"'`=(])-(?:(?:J-|)[DPWXY]|[Llf])(?=[A-Z]{2,}|[A-Z][a-z]|[a-z]{2,})
+
