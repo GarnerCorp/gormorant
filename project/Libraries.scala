@@ -2,7 +2,7 @@ import sbt._
 
 object Libraries {
   object Versions {
-    val CatsVersion = "2.10.0"
+    val CatsVersion = "2.12.0"
     val fs2Version = "3.9.4"
     val munitV = "1.0.0"
     val munitCatsEffectV = "1.0.7"
