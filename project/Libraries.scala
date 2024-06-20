@@ -9,7 +9,7 @@ object Libraries {
     val scalacheckEffectV = "1.0.4"
     val RefinedVersion = "0.11.0"
     val AttoCoreVersion = "0.9.5"
-    val ShapelessVersion = "2.3.10"
+    val ShapelessVersion = "2.3.12"
   }
 
   import Versions._
