@@ -5,7 +5,7 @@ object Libraries {
     val CatsVersion = "2.12.0"
     val fs2Version = "3.9.4"
     val munitV = "1.0.0"
-    val munitCatsEffectV = "1.0.7"
+    val munitCatsEffectV = "2.0.0"
     val scalacheckEffectV = "1.0.4"
     val RefinedVersion = "0.11.2"
     val AttoCoreVersion = "0.9.5"
@@ -27,7 +27,7 @@ object Libraries {
   val CatsKernel = "org.typelevel" %% "cats-kernel" % CatsVersion
   val MUnitTest = "org.scalameta" %% "munit" % munitV % Test
   val MUnitCatsEffectTest =
-    "org.typelevel" %% "munit-cats-effect-3" % munitCatsEffectV % Test
+    "org.typelevel" %% "munit-cats-effect" % munitCatsEffectV % Test
   val ScalaCheckEffectMUnit =
     "org.typelevel" %% "scalacheck-effect-munit" % scalacheckEffectV % Test
 
