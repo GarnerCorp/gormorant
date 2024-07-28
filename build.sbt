@@ -10,7 +10,7 @@ val proxy = "https://nexus.garnercorp.com/repository/maven-all"
 val commonSettings = Seq(
   name := "gormorant",
   organization := "com.garnercorp",
-  scalaVersion := "2.13.12",
+  scalaVersion := "2.13.14",
   organizationName := "Garner",
   homepage := Some(url("https://github.com/ChristopherDavenport/cormorant")),
   licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
@@ -32,13 +32,12 @@ val commonSettings = Seq(
   },
   scalacOptions ++= addScalacOptions,
   addCompilerPlugin(
-    "org.typelevel" %% "kind-projector" % "0.13.2" cross CrossVersion.full
+    "org.typelevel" %% "kind-projector" % "0.13.3" cross CrossVersion.full
   ),
   addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1"),
   testFrameworks += new TestFramework("munit.Framework"),
   libraryDependencies ++= Seq(
     MUnitTest,
-    MUnitCatsEffectTest,
     ScalaCheckEffectMUnit
   ),
   (sys.env.get("NEXUS_USER"), sys.env.get("NEXUS_PASSWORD")) match {
