@@ -2,13 +2,13 @@ import sbt._
 
 object Libraries {
   object Versions {
-    val CatsVersion = "2.12.0"
-    val fs2Version = "3.10.2"
-    val munitV = "1.0.1"
+    val CatsVersion = "2.13.0"
+    val fs2Version = "3.12.2"
+    val munitV = "1.0.4"
     val scalacheckEffectV = "1.0.4"
-    val RefinedVersion = "0.11.2"
+    val RefinedVersion = "0.11.3"
     val AttoCoreVersion = "0.9.5"
-    val ShapelessVersion = "2.3.12"
+    val ShapelessVersion = "2.3.13"
   }
 
   import Versions._
