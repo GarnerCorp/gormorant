@@ -4,7 +4,7 @@ object Libraries {
   object Versions {
     val CatsVersion = "2.13.0"
     val fs2Version = "3.12.2"
-    val munitV = "1.0.4"
+    val munitV = "1.2.1"
     val scalacheckEffectV = "1.0.4"
     val RefinedVersion = "0.11.3"
     val AttoCoreVersion = "0.9.5"
