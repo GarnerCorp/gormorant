@@ -32,7 +32,7 @@ val commonSettings = Seq(
   },
   scalacOptions ++= addScalacOptions,
   addCompilerPlugin(
-    "org.typelevel" %% "kind-projector" % "0.13.3" cross CrossVersion.full
+    "org.typelevel" %% "kind-projector" % "0.13.4" cross CrossVersion.full
   ),
   addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1"),
   testFrameworks += new TestFramework("munit.Framework"),
