@@ -1,4 +1,4 @@
-addSbtPlugin("org.typelevel" % "sbt-tpolecat" % "0.5.2")
+addSbtPlugin("org.typelevel" % "sbt-tpolecat" % "0.5.3")
 addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.5.5")
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.20.1")
 addSbtPlugin("com.47deg" % "sbt-microsites" % "1.4.4")
