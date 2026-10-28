@@ -1,7 +1,6 @@
 amd
 atto
 bbb
-Bordowitz
 ccc
 chris
 chrisdavenport
@@ -10,16 +9,17 @@ chuusai
 comple
 contramap
 davenverse
-Delims
 dquote
 Folat
 garnercorp
 gcr
 google
 gormorant
+gserviceaccount
 hlist
 hlw
 hnil
+iam
 jenkins
 labelledread
 labelledwrite
